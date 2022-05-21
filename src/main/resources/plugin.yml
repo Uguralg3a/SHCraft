@@ -1,0 +1,69 @@
+name: Main
+version: '${version}'
+main: me.ugur.shcraft.Main
+api-version: 1.16
+authors: [ Ugur ]
+description: Das Offizielle SHCraft Plugin
+commands:
+  gamemode:
+    permission: shcraft.command.gamemode
+  lobby:
+    permission: shcraft.command.lobby
+  citybuild:
+    permission: shcraft.command.citybuild
+  vanish:
+    permission: shcraft.command.vanish
+  gm:
+    permission: shcraft.command.gm
+  l:
+    permission: shcraft.command.l
+  cb:
+    permission: shcraft.command.cb
+  v:
+    permission: shcraft.command.v
+  day:
+    permission: shcraft.command.day
+  tag:
+    permission: shcraft.command.tag
+  night:
+    permission: shcraft.command.night
+  nacht:
+    permission: shcraft.command.nacht
+  navigator:
+    permission: shcraft.command.navigator
+  nav:
+    permission: shcraft.command.nav
+  heal:
+    permission: shcraft.command.heal
+permissions:
+  shcraft.command.gamemode:
+    default: op
+  shcraft.command.lobby:
+    default: op
+  shcraft.command.citybuild:
+    default: op
+  shcraft.command.vanish:
+    default: op
+  shcraft.command.gm:
+    default: op
+  shcraft.command.l:
+    default: op
+  shcraft.command.cb:
+    default: op
+  shcraft.command.v:
+    default: op
+  shcraft.command.day:
+    default: op
+  shcraft.command.tag:
+    default: op
+  shcraft.command.night:
+    default: op
+  shcraft.command.nacht:
+    default: op
+  shcraft.command.navigator:
+    default: true
+  shcraft.command.nav:
+    default: true
+  shcraft.command.heal:
+    default: false
+
